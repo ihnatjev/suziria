@@ -401,6 +401,7 @@ h6 {
   font-weight: 700;
   line-height: 56px;
   color: rgb(255, 255, 255);
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
 }
 
 #hero h2 {
@@ -457,7 +458,9 @@ h6 {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
-#hero .promotion {}
+#hero .promotion {
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
 #hero .promotion .label {
   color: #fff;
   font-size: 24px;
@@ -479,7 +482,6 @@ h6 {
 
 #hero .promotion .text strong {
   color: #fff;
-  font-size: 36px;
 }
 
 #hero .promotion .label strong {
